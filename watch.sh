@@ -1,0 +1,1 @@
+ls *.py | entr -n -r -c python3 main.py
