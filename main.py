@@ -104,7 +104,8 @@ def create_intervention_time_visualization(df):
     axes[1,1].grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.show()
+    #show this plot is not blocking to show the next plot at the same time. 
+    plt.show(block=False)
 
 def create_weekly_analysis(df):
     fig, axes = plt.subplots(2, 2, figsize=(16, 12))
