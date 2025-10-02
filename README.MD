@@ -13,3 +13,11 @@ chmod +x ./watch.sh
 watch mode watches the changes in main.py file and restarts the app when the file is saved. 
 
 
+
+## Görseller
+
+### Haftalık Veri Görselleştirmesi
+![Haftalık Veri](images/weekly.png)
+
+### Müdahale Veri Görselleştirmesi
+![Müdahale Veri](images/intervention.png)
